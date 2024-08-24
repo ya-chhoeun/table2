@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 68%;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th,td{
+    border: 1px solid #ddd;
+    font-size: 15px;
+    padding: 13px;
+}
+th{
+    background-color: rgb(23, 169, 67);
+}
+tbody tr:nth-child(2) td:nth-child(3){
+    background-color: pink;
+}
+tbody tr:nth-child(4) td:nth-child(3){
+    background-color: pink;
+}
+tbody tr:nth-child(even){
+    background-color: #eae8e8;
+}
+
+
